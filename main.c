@@ -1,13 +1,28 @@
 #include "ring.h"
-#include "ring_test.h"
 #include <stdio.h>
+#include "usart.h"
+
 
 
 int main (void)
 {
-
-	RingBuffer_UnitTest();
-
+	USART_Init();
+char k;
+	
+	 USART_WriteString("ALAMAKO");
+	 USART_GetChar(&k);
+	printf("%c\n\r", k);
+	
+		 USART_GetChar(&k);
+	printf("%c\n\r", k);
+	
+		 USART_GetChar(&k);
+	printf("%c\n\r", k);
+//		USART_GetChar(&k);
+	//printf("%c\n\r", k);
+		//	USART_GetChar(&k);
+//	printf("%c\n\r", k);
+	
 return 0;	
 	
 }

@@ -1,31 +1,86 @@
 Dependencies for Project 'bufor', Target 'Target 1': (DO NOT MODIFY !)
-F (.\ring.c)(0x55107C31)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Users\Karol\Documents\AuK\Lab2\RTE-I C:\Users\Karol\Documents\AuK\Lab2\RTE\Device\STM32F401VCTx-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc"-D_RTE_ -DSTM32F401xC-o .\objects\ring.o --omf_browse .\objects\ring.crf --depend .\objects\ring.d)
+F (.\ring.c)(0x55147184)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork -I C:\Users\Karol\Documents\AuK\AuK-lab2\RTE-I C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\Device\STM32F401VCTx-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Driver\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc"-D_RTE_ -DSTM32F401xC-o .\objects\ring.o --omf_browse .\objects\ring.crf --depend .\objects\ring.d)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Core\ARM\ARMCC\include\assert.h)(0x5419E3CC)
-I (ring.h)(0x551074C3)
+I (ring.h)(0x5511BA33)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Core\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Core\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Core\ARM\ARMCC\include\stddef.h)(0x5419E3CA)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Core\ARM\ARMCC\include\string.h)(0x5419E3CC)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Core\ARM\ARMCC\include\stdio.h)(0x5419E3CC)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Core\ARM\ARMCC\include\stdlib.h)(0x5419E3CC)
-F (.\ring_test.c)(0x55107C54)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Users\Karol\Documents\AuK\Lab2\RTE-I C:\Users\Karol\Documents\AuK\Lab2\RTE\Device\STM32F401VCTx-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc"-D_RTE_ -DSTM32F401xC-o .\objects\ring_test.o --omf_browse .\objects\ring_test.crf --depend .\objects\ring_test.d)
-I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Core\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Core\ARM\ARMCC\include\stdio.h)(0x5419E3CC)
-I (ring.h)(0x551074C3)
-I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Core\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Core\ARM\ARMCC\include\stddef.h)(0x5419E3CA)
-F (.\main.c)(0x55107C2F)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Users\Karol\Documents\AuK\Lab2\RTE-I C:\Users\Karol\Documents\AuK\Lab2\RTE\Device\STM32F401VCTx-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc"-D_RTE_ -DSTM32F401xC-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
-I (ring.h)(0x551074C3)
+F (.\main.c)(0x551475D2)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork -I C:\Users\Karol\Documents\AuK\AuK-lab2\RTE-I C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\Device\STM32F401VCTx-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Driver\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc"-D_RTE_ -DSTM32F401xC-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (ring.h)(0x5511BA33)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Core\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Core\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Core\ARM\ARMCC\include\stddef.h)(0x5419E3CA)
-I (ring_test.h)(0x5508891A)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Core\ARM\ARMCC\include\stdio.h)(0x5419E3CC)
-F (.\ITM_Retarget.c)(0x55088127)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Users\Karol\Documents\AuK\Lab2\RTE-I C:\Users\Karol\Documents\AuK\Lab2\RTE\Device\STM32F401VCTx-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc"-D_RTE_ -DSTM32F401xC-o .\objects\itm_retarget.o --omf_browse .\objects\itm_retarget.crf --depend .\objects\itm_retarget.d)
+I (usart.h)(0x55143E7E)
+F (.\usart.c)(0x5514753D)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork -I C:\Users\Karol\Documents\AuK\AuK-lab2\RTE-I C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\Device\STM32F401VCTx-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Driver\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc"-D_RTE_ -DSTM32F401xC-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
+I (usart.h)(0x55143E7E)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Core\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Core\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Core\ARM\ARMCC\include\stddef.h)(0x5419E3CA)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Core\ARM\ARMCC\include\stdio.h)(0x5419E3CC)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Core\ARM\ARMCC\include\string.h)(0x5419E3CC)
+I (ring.h)(0x5511BA33)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53AC7350)
+I (C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\Device\STM32F401VCTx\stm32f4xx_hal_conf.h)(0x5511BA33)
+I (C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\RTE_Components.h)(0x5511BAB7)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x53AC734A)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x53AC734A)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm4.h)(0x53FD04CA)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FFC59A)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FFC59A)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmSimd.h)(0x53FD04CA)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x53AC734A)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x53AC7352)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x53AC7352)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53AC7350)
+F (.\core.c)(0x5511AC4D)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork -I C:\Users\Karol\Documents\AuK\AuK-lab2\RTE-I C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\Device\STM32F401VCTx-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Driver\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc"-D_RTE_ -DSTM32F401xC-o .\objects\core.o --omf_browse .\objects\core.crf --depend .\objects\core.d)
+I (core.h)(0x5511AC60)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53AC7350)
+I (C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\Device\STM32F401VCTx\stm32f4xx_hal_conf.h)(0x5511BA33)
+I (C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\RTE_Components.h)(0x5511BAB7)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x53AC734A)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x53AC734A)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm4.h)(0x53FD04CA)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Core\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FFC59A)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FFC59A)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmSimd.h)(0x53FD04CA)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x53AC734A)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x53AC7352)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x53AC7352)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53AC7350)
+F (.\ITM_Retarget.c)(0x5511BA33)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork -I C:\Users\Karol\Documents\AuK\AuK-lab2\RTE-I C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\Device\STM32F401VCTx-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Driver\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc"-D_RTE_ -DSTM32F401xC-o .\objects\itm_retarget.o --omf_browse .\objects\itm_retarget.crf --depend .\objects\itm_retarget.d)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Core\ARM\ARMCC\include\stdio.h)(0x5419E3CC)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53AC7350)
-I (C:\Users\Karol\Documents\AuK\Lab2\RTE\Device\STM32F401VCTx\stm32f4xx_hal_conf.h)(0x5410B74A)
-I (C:\Users\Karol\Documents\AuK\Lab2\RTE\RTE_Components.h)(0x55088109)
+I (C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\Device\STM32F401VCTx\stm32f4xx_hal_conf.h)(0x5511BA33)
+I (C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\RTE_Components.h)(0x5511BAB7)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x53AC734A)
@@ -39,22 +94,32 @@ I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CM
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x53AC7352)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x53AC7352)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x53AC7350)
-F (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c)(0x53AC734C)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Users\Karol\Documents\AuK\Lab2\RTE-I C:\Users\Karol\Documents\AuK\Lab2\RTE\Device\STM32F401VCTx-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc"-D_RTE_ -DSTM32F401xC-o .\objects\stm32f4xx_hal.o --omf_browse .\objects\stm32f4xx_hal.crf --depend .\objects\stm32f4xx_hal.d)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53AC7350)
+F (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\CMSIS\Driver\USART_STM32F4xx.c)(0x547E00B0)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork -I C:\Users\Karol\Documents\AuK\AuK-lab2\RTE-I C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\Device\STM32F401VCTx-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Driver\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc"-D_RTE_ -DSTM32F401xC-o .\objects\usart_stm32f4xx.o --omf_browse .\objects\usart_stm32f4xx.crf --depend .\objects\usart_stm32f4xx.d)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\CMSIS\Driver\USART_STM32F4xx.h)(0x5478D086)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Core\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Core\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Core\ARM\ARMCC\include\string.h)(0x5419E3CC)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Driver\Include\Driver_USART.h)(0x538600D6)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Driver\Include\Driver_Common.h)(0x53069D18)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Core\ARM\ARMCC\include\stddef.h)(0x5419E3CA)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53AC7350)
-I (C:\Users\Karol\Documents\AuK\Lab2\RTE\Device\STM32F401VCTx\stm32f4xx_hal_conf.h)(0x5410B74A)
-I (C:\Users\Karol\Documents\AuK\Lab2\RTE\RTE_Components.h)(0x55088109)
+I (C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\Device\STM32F401VCTx\stm32f4xx_hal_conf.h)(0x5511BA33)
+I (C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\RTE_Components.h)(0x5511BAB7)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x53AC734A)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x53AC734A)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm4.h)(0x53FD04CA)
-I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Core\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FFC59A)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FFC59A)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmSimd.h)(0x53FD04CA)
@@ -62,16 +127,21 @@ I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CM
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x53AC7352)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x53AC7352)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x53AC7350)
-F (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c)(0x53AC734C)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Users\Karol\Documents\AuK\Lab2\RTE-I C:\Users\Karol\Documents\AuK\Lab2\RTE\Device\STM32F401VCTx-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc"-D_RTE_ -DSTM32F401xC-o .\objects\stm32f4xx_hal_cortex.o --omf_browse .\objects\stm32f4xx_hal_cortex.crf --depend .\objects\stm32f4xx_hal_cortex.d)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53AC7350)
+I (C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\Device\STM32F401VCTx\RTE_Device.h)(0x5511BA33)
+F (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c)(0x53AC734C)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork -I C:\Users\Karol\Documents\AuK\AuK-lab2\RTE-I C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\Device\STM32F401VCTx-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Driver\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc"-D_RTE_ -DSTM32F401xC-o .\objects\stm32f4xx_hal.o --omf_browse .\objects\stm32f4xx_hal.crf --depend .\objects\stm32f4xx_hal.d)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53AC7350)
-I (C:\Users\Karol\Documents\AuK\Lab2\RTE\Device\STM32F401VCTx\stm32f4xx_hal_conf.h)(0x5410B74A)
-I (C:\Users\Karol\Documents\AuK\Lab2\RTE\RTE_Components.h)(0x55088109)
+I (C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\Device\STM32F401VCTx\stm32f4xx_hal_conf.h)(0x5511BA33)
+I (C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\RTE_Components.h)(0x5511BAB7)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x53AC734A)
@@ -85,16 +155,20 @@ I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CM
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x53AC7352)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x53AC7352)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x53AC7350)
-F (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c)(0x53AC734C)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Users\Karol\Documents\AuK\Lab2\RTE-I C:\Users\Karol\Documents\AuK\Lab2\RTE\Device\STM32F401VCTx-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc"-D_RTE_ -DSTM32F401xC-o .\objects\stm32f4xx_hal_gpio.o --omf_browse .\objects\stm32f4xx_hal_gpio.crf --depend .\objects\stm32f4xx_hal_gpio.d)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53AC7350)
+F (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c)(0x53AC734C)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork -I C:\Users\Karol\Documents\AuK\AuK-lab2\RTE-I C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\Device\STM32F401VCTx-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Driver\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc"-D_RTE_ -DSTM32F401xC-o .\objects\stm32f4xx_hal_cortex.o --omf_browse .\objects\stm32f4xx_hal_cortex.crf --depend .\objects\stm32f4xx_hal_cortex.d)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53AC7350)
-I (C:\Users\Karol\Documents\AuK\Lab2\RTE\Device\STM32F401VCTx\stm32f4xx_hal_conf.h)(0x5410B74A)
-I (C:\Users\Karol\Documents\AuK\Lab2\RTE\RTE_Components.h)(0x55088109)
+I (C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\Device\STM32F401VCTx\stm32f4xx_hal_conf.h)(0x5511BA33)
+I (C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\RTE_Components.h)(0x5511BAB7)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x53AC734A)
@@ -108,16 +182,20 @@ I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CM
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x53AC7352)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x53AC7352)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x53AC7350)
-F (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c)(0x53AC734C)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Users\Karol\Documents\AuK\Lab2\RTE-I C:\Users\Karol\Documents\AuK\Lab2\RTE\Device\STM32F401VCTx-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc"-D_RTE_ -DSTM32F401xC-o .\objects\stm32f4xx_hal_pwr.o --omf_browse .\objects\stm32f4xx_hal_pwr.crf --depend .\objects\stm32f4xx_hal_pwr.d)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53AC7350)
+F (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c)(0x53AC734C)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork -I C:\Users\Karol\Documents\AuK\AuK-lab2\RTE-I C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\Device\STM32F401VCTx-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Driver\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc"-D_RTE_ -DSTM32F401xC-o .\objects\stm32f4xx_hal_gpio.o --omf_browse .\objects\stm32f4xx_hal_gpio.crf --depend .\objects\stm32f4xx_hal_gpio.d)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53AC7350)
-I (C:\Users\Karol\Documents\AuK\Lab2\RTE\Device\STM32F401VCTx\stm32f4xx_hal_conf.h)(0x5410B74A)
-I (C:\Users\Karol\Documents\AuK\Lab2\RTE\RTE_Components.h)(0x55088109)
+I (C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\Device\STM32F401VCTx\stm32f4xx_hal_conf.h)(0x5511BA33)
+I (C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\RTE_Components.h)(0x5511BAB7)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x53AC734A)
@@ -131,16 +209,20 @@ I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CM
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x53AC7352)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x53AC7352)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x53AC7350)
-F (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c)(0x53AC734C)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Users\Karol\Documents\AuK\Lab2\RTE-I C:\Users\Karol\Documents\AuK\Lab2\RTE\Device\STM32F401VCTx-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc"-D_RTE_ -DSTM32F401xC-o .\objects\stm32f4xx_hal_pwr_ex.o --omf_browse .\objects\stm32f4xx_hal_pwr_ex.crf --depend .\objects\stm32f4xx_hal_pwr_ex.d)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53AC7350)
+F (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c)(0x53AC734C)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork -I C:\Users\Karol\Documents\AuK\AuK-lab2\RTE-I C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\Device\STM32F401VCTx-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Driver\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc"-D_RTE_ -DSTM32F401xC-o .\objects\stm32f4xx_hal_pwr.o --omf_browse .\objects\stm32f4xx_hal_pwr.crf --depend .\objects\stm32f4xx_hal_pwr.d)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53AC7350)
-I (C:\Users\Karol\Documents\AuK\Lab2\RTE\Device\STM32F401VCTx\stm32f4xx_hal_conf.h)(0x5410B74A)
-I (C:\Users\Karol\Documents\AuK\Lab2\RTE\RTE_Components.h)(0x55088109)
+I (C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\Device\STM32F401VCTx\stm32f4xx_hal_conf.h)(0x5511BA33)
+I (C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\RTE_Components.h)(0x5511BAB7)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x53AC734A)
@@ -154,16 +236,20 @@ I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CM
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x53AC7352)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x53AC7352)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x53AC7350)
-F (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c)(0x53AC734C)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Users\Karol\Documents\AuK\Lab2\RTE-I C:\Users\Karol\Documents\AuK\Lab2\RTE\Device\STM32F401VCTx-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc"-D_RTE_ -DSTM32F401xC-o .\objects\stm32f4xx_hal_rcc.o --omf_browse .\objects\stm32f4xx_hal_rcc.crf --depend .\objects\stm32f4xx_hal_rcc.d)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53AC7350)
+F (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c)(0x53AC734C)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork -I C:\Users\Karol\Documents\AuK\AuK-lab2\RTE-I C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\Device\STM32F401VCTx-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Driver\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc"-D_RTE_ -DSTM32F401xC-o .\objects\stm32f4xx_hal_pwr_ex.o --omf_browse .\objects\stm32f4xx_hal_pwr_ex.crf --depend .\objects\stm32f4xx_hal_pwr_ex.d)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53AC7350)
-I (C:\Users\Karol\Documents\AuK\Lab2\RTE\Device\STM32F401VCTx\stm32f4xx_hal_conf.h)(0x5410B74A)
-I (C:\Users\Karol\Documents\AuK\Lab2\RTE\RTE_Components.h)(0x55088109)
+I (C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\Device\STM32F401VCTx\stm32f4xx_hal_conf.h)(0x5511BA33)
+I (C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\RTE_Components.h)(0x5511BAB7)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x53AC734A)
@@ -177,16 +263,20 @@ I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CM
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x53AC7352)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x53AC7352)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x53AC7350)
-F (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c)(0x53AC734C)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Users\Karol\Documents\AuK\Lab2\RTE-I C:\Users\Karol\Documents\AuK\Lab2\RTE\Device\STM32F401VCTx-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc"-D_RTE_ -DSTM32F401xC-o .\objects\stm32f4xx_hal_rcc_ex.o --omf_browse .\objects\stm32f4xx_hal_rcc_ex.crf --depend .\objects\stm32f4xx_hal_rcc_ex.d)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53AC7350)
+F (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c)(0x53AC734C)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork -I C:\Users\Karol\Documents\AuK\AuK-lab2\RTE-I C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\Device\STM32F401VCTx-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Driver\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc"-D_RTE_ -DSTM32F401xC-o .\objects\stm32f4xx_hal_rcc.o --omf_browse .\objects\stm32f4xx_hal_rcc.crf --depend .\objects\stm32f4xx_hal_rcc.d)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53AC7350)
-I (C:\Users\Karol\Documents\AuK\Lab2\RTE\Device\STM32F401VCTx\stm32f4xx_hal_conf.h)(0x5410B74A)
-I (C:\Users\Karol\Documents\AuK\Lab2\RTE\RTE_Components.h)(0x55088109)
+I (C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\Device\STM32F401VCTx\stm32f4xx_hal_conf.h)(0x5511BA33)
+I (C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\RTE_Components.h)(0x5511BAB7)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x53AC734A)
@@ -200,14 +290,22 @@ I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CM
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x53AC7352)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x53AC7352)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x53AC7350)
-F (RTE\Device\STM32F401VCTx\startup_stm32f401xc.s)(0x53AC7348)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Users\Karol\Documents\AuK\Lab2\RTE-I C:\Users\Karol\Documents\AuK\Lab2\RTE\Device\STM32F401VCTx-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc"--pd "_RTE_ SETA 1" --pd "STM32F401xC SETA 1"--list .\listings\startup_stm32f401xc.lst --xref -o .\objects\startup_stm32f401xc.o --depend .\objects\startup_stm32f401xc.d)
-F (RTE\Device\STM32F401VCTx\system_stm32f4xx.c)(0x54249A84)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Users\Karol\Documents\AuK\Lab2\RTE-I C:\Users\Karol\Documents\AuK\Lab2\RTE\Device\STM32F401VCTx-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc"-D_RTE_ -DSTM32F401xC-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53AC7350)
+F (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c)(0x53AC734C)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork -I C:\Users\Karol\Documents\AuK\AuK-lab2\RTE-I C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\Device\STM32F401VCTx-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Driver\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc"-D_RTE_ -DSTM32F401xC-o .\objects\stm32f4xx_hal_rcc_ex.o --omf_browse .\objects\stm32f4xx_hal_rcc_ex.crf --depend .\objects\stm32f4xx_hal_rcc_ex.d)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53AC7350)
+I (C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\Device\STM32F401VCTx\stm32f4xx_hal_conf.h)(0x5511BA33)
+I (C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\RTE_Components.h)(0x5511BAB7)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x53AC7350)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x53AC734A)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x53AC734A)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm4.h)(0x53FD04CA)
@@ -216,5 +314,136 @@ I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FFC59A)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmSimd.h)(0x53FD04CA)
 I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x53AC734A)
-F (RTE\Device\STM32F401VCTx\RTE_Device.h)(0x546117AC)()
-F (RTE\Device\STM32F401VCTx\stm32f4xx_hal_conf.h)(0x5410B74A)()
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x53AC7352)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x53AC7352)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53AC7350)
+F (RTE\Device\STM32F401VCTx\startup_stm32f401xc.s)(0x5511BA33)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Users\Karol\Documents\AuK\AuK-lab2\RTE-I C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\Device\STM32F401VCTx-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Driver\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc"--pd "_RTE_ SETA 1" --pd "STM32F401xC SETA 1"--list .\listings\startup_stm32f401xc.lst --xref -o .\objects\startup_stm32f401xc.o --depend .\objects\startup_stm32f401xc.d)
+F (RTE\Device\STM32F401VCTx\system_stm32f4xx.c)(0x5511BA33)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork -I C:\Users\Karol\Documents\AuK\AuK-lab2\RTE-I C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\Device\STM32F401VCTx-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Driver\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc"-D_RTE_ -DSTM32F401xC-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x53AC734A)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x53AC734A)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm4.h)(0x53FD04CA)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Core\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FFC59A)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FFC59A)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmSimd.h)(0x53FD04CA)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x53AC734A)
+F (RTE\Device\STM32F401VCTx\RTE_Device.h)(0x5511BA33)()
+F (RTE\Device\STM32F401VCTx\stm32f4xx_hal_conf.h)(0x5511BA33)()
+F (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c)(0x53AC734C)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork -I C:\Users\Karol\Documents\AuK\AuK-lab2\RTE-I C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\Device\STM32F401VCTx-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Driver\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc"-D_RTE_ -DSTM32F401xC-o .\objects\stm32f4xx_hal_dma.o --omf_browse .\objects\stm32f4xx_hal_dma.crf --depend .\objects\stm32f4xx_hal_dma.d)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53AC7350)
+I (C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\Device\STM32F401VCTx\stm32f4xx_hal_conf.h)(0x5511BA33)
+I (C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\RTE_Components.h)(0x5511BAB7)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x53AC734A)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x53AC734A)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm4.h)(0x53FD04CA)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Core\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FFC59A)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FFC59A)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmSimd.h)(0x53FD04CA)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x53AC734A)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x53AC7352)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x53AC7352)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53AC7350)
+F (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c)(0x53AC734C)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork -I C:\Users\Karol\Documents\AuK\AuK-lab2\RTE-I C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\Device\STM32F401VCTx-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Driver\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc"-D_RTE_ -DSTM32F401xC-o .\objects\stm32f4xx_hal_dma_ex.o --omf_browse .\objects\stm32f4xx_hal_dma_ex.crf --depend .\objects\stm32f4xx_hal_dma_ex.d)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53AC7350)
+I (C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\Device\STM32F401VCTx\stm32f4xx_hal_conf.h)(0x5511BA33)
+I (C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\RTE_Components.h)(0x5511BAB7)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x53AC734A)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x53AC734A)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm4.h)(0x53FD04CA)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Core\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FFC59A)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FFC59A)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmSimd.h)(0x53FD04CA)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x53AC734A)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x53AC7352)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x53AC7352)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53AC7350)
+F (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c)(0x53AC734C)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork -I C:\Users\Karol\Documents\AuK\AuK-lab2\RTE-I C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\Device\STM32F401VCTx-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Driver\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc"-D_RTE_ -DSTM32F401xC-o .\objects\stm32f4xx_hal_uart.o --omf_browse .\objects\stm32f4xx_hal_uart.crf --depend .\objects\stm32f4xx_hal_uart.d)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53AC7350)
+I (C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\Device\STM32F401VCTx\stm32f4xx_hal_conf.h)(0x5511BA33)
+I (C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\RTE_Components.h)(0x5511BAB7)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x53AC734A)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x53AC734A)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm4.h)(0x53FD04CA)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Core\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FFC59A)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FFC59A)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmSimd.h)(0x53FD04CA)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x53AC734A)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x53AC7352)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x53AC7352)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53AC7350)
+F (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_usart.c)(0x53AC734C)(--c99 -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork -I C:\Users\Karol\Documents\AuK\AuK-lab2\RTE-I C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\Device\STM32F401VCTx-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Driver\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I "D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc"-D_RTE_ -DSTM32F401xC-o .\objects\stm32f4xx_hal_usart.o --omf_browse .\objects\stm32f4xx_hal_usart.crf --depend .\objects\stm32f4xx_hal_usart.d)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x53AC7350)
+I (C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\Device\STM32F401VCTx\stm32f4xx_hal_conf.h)(0x5511BA33)
+I (C:\Users\Karol\Documents\AuK\AuK-lab2\RTE\RTE_Components.h)(0x5511BAB7)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x53AC734A)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x53AC734A)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm4.h)(0x53FD04CA)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Core\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FFC59A)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FFC59A)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmSimd.h)(0x53FD04CA)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x53AC734A)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x53AC7352)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h)(0x53AC7352)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h)(0x53AC7350)
+I (D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_usart.h)(0x53AC7350)

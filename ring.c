@@ -82,6 +82,7 @@ bool RingBuffer_PutChar(RingBuffer *ringBuffer, char c)
 		else
 		{
         ringBuffer->buffer[ringBuffer->head] = c;
+				printf("litera: %c\n\r",ringBuffer->buffer[ringBuffer->head]);
 				ringBuffer->head++;
         ringBuffer->size++;
         
@@ -109,8 +110,9 @@ bool RingBuffer_GetChar(RingBuffer *ringBuffer, char *c)
         if(ringBuffer->head == ringBuffer->tail && !(ringBuffer->full))
             return false;
 				else{
+					printf("literaGet: %c\n\r",ringBuffer->buffer[ringBuffer->tail]);
         *c = ringBuffer->buffer[ringBuffer->tail];
-        ringBuffer->tail++;
+					ringBuffer->tail++;
 					if(ringBuffer->tail >= ringBuffer->end)
 					{
 						ringBuffer->tail = 0;

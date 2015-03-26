@@ -773,19 +773,21 @@ ARM Macro Assembler    Page 12
               00000000 
 Command Line: --debug --xref --cpu=Cortex-M4.fp --apcs=interwork --depend=.\obj
 ects\startup_stm32f401xc.d -o.\objects\startup_stm32f401xc.o -IC:\Users\Karol\D
-ocuments\AuK\Lab2\RTE -IC:\Users\Karol\Documents\AuK\Lab2\RTE\Device\STM32F401V
-CTx -I"D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\Include"
- -I"D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\
-CMSIS\Device\ST\STM32F4xx\Include" -I"D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack
-\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc" --predefine="__EVAL
+ocuments\AuK\AuK-lab2\RTE -IC:\Users\Karol\Documents\AuK\AuK-lab2\RTE\Device\ST
+M32F401VCTx -I"D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CMSIS\
+Driver\Include" -I"D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\ARM\CMSIS\4.2.0\CM
+SIS\Include" -I"D:\Programy\Na Studia!!\TMP2\Keil_v5\Pack\Keil\STM32F4xx_DFP\2.
+3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include" -I"D:\Programy\Na Studia!!\TMP2\
 
 
 
 ARM Macro Assembler    Page 13 
 
 
- SETA 1" --predefine="_RTE_ SETA 1" --predefine="STM32F401xC SETA 1" --list=.\l
-istings\startup_stm32f401xc.lst RTE\Device\STM32F401VCTx\startup_stm32f401xc.s
+Keil_v5\Pack\Keil\STM32F4xx_DFP\2.3.0\Drivers\STM32F4xx_HAL_Driver\Inc" --prede
+fine="__EVAL SETA 1" --predefine="_RTE_ SETA 1" --predefine="STM32F401xC SETA 1
+" --list=.\listings\startup_stm32f401xc.lst RTE\Device\STM32F401VCTx\startup_st
+m32f401xc.s
 
 
 
